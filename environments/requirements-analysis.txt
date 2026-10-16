@@ -1,8 +1,0 @@
-# Unpinned dependencies inferred from imports; not a historical lockfile.
-numpy
-pandas
-scipy
-scikit-image
-matplotlib
-Pillow
-tifffile
