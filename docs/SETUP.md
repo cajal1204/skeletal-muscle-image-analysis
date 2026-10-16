@@ -9,7 +9,7 @@ Generate fiber label masks with Cellpose-SAM and, for nuclear analyses, nucleus 
 The custom scripts use NumPy, pandas, SciPy, scikit-image, Matplotlib, Pillow, and tifffile. Install these in your Python environment from the repository root:
 
 ```bash
-python -m pip install -r environments/requirements-analysis.txt
+python -m pip install -r requirements.txt
 ```
 
 ## Prepare images
@@ -78,3 +78,4 @@ For batch measurement, set `ROOT_FOLDER`, `MASK_FILENAME`, and `PIXEL_SIZE_UM` i
 Lookup and correction tools prompt for fiber IDs in a terminal. Lookup tools include a Windows-specific Fiji launcher: set `open_png_in_fiji = False` on other platforms or set the correct Fiji executable on Windows. Saved overlays can be inspected separately.
 
 Preserve exclusion lists, manual-correction records, backups, and the final corrected CSV tables. Rerunning assignment or scoring can overwrite corrected results; not all correction logs are automatically reapplied. Recreate overlays after corrections and document the final filtering and biological-replicate aggregation outside these image-level scripts.
+
