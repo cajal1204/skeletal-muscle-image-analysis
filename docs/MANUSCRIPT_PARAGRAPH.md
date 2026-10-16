@@ -1,3 +1,0 @@
-# Short manuscript methods
-
-Immunofluorescence images of skeletal muscle cross-sections were analyzed using Cellpose-SAM, StarDist, and custom Python scripts. Myofibers were segmented using Cellpose-SAM with a cell probability threshold of 1 and otherwise default settings, and DAPI-stained and RFP-positive nuclei were segmented using StarDist. Custom scripts quantified fiber number and calibrated cross-sectional area, assigned nuclei to fibers, and assessed central nucleation and dystrophin or eMHC expression using workflow-specific spatial and fluorescence-intensity criteria. Automated quality-control filters and visual review supported artifact exclusion and classification correction, and measurements were exported as CSV files.
