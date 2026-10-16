@@ -52,7 +52,7 @@ Most scripts are configured through the user-settings section near the top of th
 
 ## Software
 
-Downstream analysis uses NumPy, pandas, SciPy, scikit-image, Matplotlib, Pillow, and tifffile. Cellpose-SAM and StarDist are upstream prerequisites; this repository covers analysis after segmentation. Fiji is optional for opening individual-fiber review images.
+Analysis uses NumPy, pandas, SciPy, scikit-image, Matplotlib, Pillow, and tifffile. Cellpose-SAM and StarDist are upstream prerequisites; this repository covers analysis after segmentation. Fiji is optional for opening individual-fiber review images.
 
 ## Attribution and reuse
 
