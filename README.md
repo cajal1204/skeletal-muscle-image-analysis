@@ -56,5 +56,5 @@ Downstream analysis uses NumPy, pandas, SciPy, scikit-image, Matplotlib, Pillow,
 
 ## Attribution and reuse
 
-Custom analysis scripts: Ethan Murphy, Perlingeiro Lab, University of Minnesota. Please cite the applicable Cellpose-SAM and StarDist publications when using these tools. A reuse license has not yet been added; contact the repository maintainers about reuse permissions.
+Custom analysis scripts: Ethan Murphy, Perlingeiro Lab, University of Minnesota. Please cite the applicable Cellpose-SAM and StarDist publications when using these tools. 
 
