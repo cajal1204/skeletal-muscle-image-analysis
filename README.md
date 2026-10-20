@@ -1,4 +1,4 @@
-# Skeletal Muscle Image Analysis
+# Myofiber Morphometry and Nuclear/Marker Analysis
 
 Python tools for quantifying myofibers, nuclear localization, and marker expression in skeletal muscle immunofluorescence images.
 
@@ -57,4 +57,5 @@ Analysis uses NumPy, pandas, SciPy, scikit-image, Matplotlib, Pillow, and tifffi
 ## Attribution and reuse
 
 Custom analysis scripts: Ethan Murphy, Perlingeiro Lab, University of Minnesota. Please cite the applicable Cellpose-SAM and StarDist publications when using these tools. 
+
 
